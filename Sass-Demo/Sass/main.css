@@ -65,44 +65,73 @@ body {
 }
 #main .part #about h1, #main .part #explain h1,
 #main .part #Education h1,
-#main .part #skills h1 {
+#main .part #skills h1,
+#main .part #interests h1,
+#main .part #certificates h1 {
   font-size: 24px;
   color: rgba(0, 0, 0, 0.582);
   text-transform: uppercase;
   margin-top: 5%;
+  margin-left: 2%;
 }
 #main .part #about h2, #main .part #explain h2,
 #main .part #Education h2,
-#main .part #skills h2 {
+#main .part #skills h2,
+#main .part #interests h2,
+#main .part #certificates h2 {
   font-size: 24px;
   color: rgba(0, 0, 0, 0.582);
   text-transform: uppercase;
-  margin: 3%;
+  margin: 5%;
 }
 #main .part #about h2 #mail:hover, #main .part #explain h2 #mail:hover,
 #main .part #Education h2 #mail:hover,
-#main .part #skills h2 #mail:hover {
+#main .part #skills h2 #mail:hover,
+#main .part #interests h2 #mail:hover,
+#main .part #certificates h2 #mail:hover {
   color: #834025;
 }
 #main .part #about p, #main .part #explain p,
 #main .part #Education p,
-#main .part #skills p {
+#main .part #skills p,
+#main .part #interests p,
+#main .part #certificates p {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.439);
-  margin: 5%;
+  margin: 7%;
 }
 #main .part #about #explainPart, #main .part #explain #explainPart,
 #main .part #Education #explainPart,
-#main .part #skills #explainPart {
+#main .part #skills #explainPart,
+#main .part #interests #explainPart,
+#main .part #certificates #explainPart {
   display: flex;
   justify-content: space-between;
 }
 #main .part #about #explainPart h2, #main .part #explain #explainPart h2,
 #main .part #Education #explainPart h2,
-#main .part #skills #explainPart h2 {
+#main .part #skills #explainPart h2,
+#main .part #interests #explainPart h2,
+#main .part #certificates #explainPart h2 {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.439);
   text-transform: uppercase;
+}
+#main .part #about li, #main .part #explain li,
+#main .part #Education li,
+#main .part #skills li,
+#main .part #interests li,
+#main .part #certificates li {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.439);
+  margin-left: 5%;
+}
+#main .part #about ul, #main .part #explain ul,
+#main .part #Education ul,
+#main .part #skills ul,
+#main .part #interests ul,
+#main .part #certificates ul {
+  margin-top: 2%;
 }
 #main .part #icons {
   display: flex;
@@ -111,6 +140,7 @@ body {
 }
 #main .part #icons2 {
   margin-top: 2%;
+  margin-left: 5%;
   font-size: 45px;
   color: rgba(0, 0, 0, 0.439); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
