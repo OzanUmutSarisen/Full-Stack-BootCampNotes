@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div class="divDe">
+            <h1>Ozan</h1>
+        </div>
+
+        <h1>Ozan</h1>
+    </div>
+    <h1>Ozan</h1>
+    <h1>Ozan</h1>
+
+    <h2>X > Y Selector</h2>
+
+    <div id="direct-container">
+        <ul>
+            <li> List Item
+                <ul>
+                    <li> Child </li>
+                </ul>
+            </li>
+            <li> List Item </li>
+            <li> List Item </li>
+            <li> List Item </li>
+        </ul>
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. </p>
+    </div>
+
+    <h2>X ~ Y Selector</h2>
+    <div id="sib-container">
+        <ul>
+            <li> List Item
+                <ul>
+                    <li> Child </li>
+                </ul>
+            </li>
+            <li> List Item </li>
+            <li> List Item </li>
+            <li> List Item </li>
+        </ul>
+
+        <p> Lorem ipsum dolor sit amet, <a href="#" title="Some title">consectetur</a> adipisicing elit, sed do eiusmod
+            tempor. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur <a href="#">adipisicing</a> elit, sed do eiusmod tempor. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. </p>
+    </div>
+
+</body>
+
+<style>
+    div#divDe>h1 {
+        color: red;
+        display: inline-block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    h1 {
+        display: inline-block;
+    }
+
+    div {
+        display: inline-block;
+    }
+
+    * {
+        color: white;
+        background-color: black;
+    }
+
+    div#direct-container>ul {
+        border: 1px solid blue;
+    }
+
+    div#sib-container ul~p {
+        color: red;
+    }
+</style>
+
+</html>
